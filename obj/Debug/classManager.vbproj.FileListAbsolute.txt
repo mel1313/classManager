@@ -1,0 +1,10 @@
+D:\devApps\classManager\classManager\bin\classManager.dll.config
+D:\devApps\classManager\classManager\bin\classManager.dll
+D:\devApps\classManager\classManager\bin\classManager.pdb
+D:\devApps\classManager\classManager\bin\classManager.xml
+D:\devApps\classManager\classManager\obj\Debug\classManager.Resources.resources
+D:\devApps\classManager\classManager\obj\Debug\classManager.vbproj.GenerateResource.Cache
+D:\devApps\classManager\classManager\obj\Debug\classManager.dll
+D:\devApps\classManager\classManager\obj\Debug\classManager.xml
+D:\devApps\classManager\classManager\obj\Debug\classManager.pdb
+D:\devApps\classManager\classManager\obj\Debug\classManager.vbprojResolveAssemblyReference.cache

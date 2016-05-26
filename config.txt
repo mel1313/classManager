@@ -1,0 +1,12 @@
+﻿{
+    "appName": "classManager",
+	"dbName":  "classManager",
+    "dbType":  "mongoDb",
+    "webApiUrldigital": "http://188.166.214.88:3000",
+	"webApiUrl": "http://localhost:3000",
+    "filesUrl": "http://localhost:3000",
+    "title": "classManager",
+    "version": "1.0.1",
+    "userId":"admin",
+    "pswd":"123456"
+}

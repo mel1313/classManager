@@ -1,0 +1,43 @@
+﻿<form name="masterForm">
+
+    <div class="container">
+
+
+        <div ng-include="'mylib/mvc/master/masterHeaderView.html'"></div>
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-2">
+                <div class="form-Class">
+                    <div><label for="myClass" style="color:blue">Class</label></div>
+                    <select class="form-control" name="myClass" data-ng-change="onClassChange()" data-ng-options="myClass.key as myClass.value for myClass in myClassList" data-ng-disabled="disableControl()" data-ng-model=" data.myClass" ng-required="true"></select>
+
+                </div>
+            </div>
+        </div>
+
+      
+
+
+        <div class="row">
+            <div class="col-md-12 col-lg-12">
+                <div data-ui-grid="form.student" class="statsGrid">
+                </div>
+
+                <br />
+                <br />
+                <button title="create class" data-ng-click="onCreateClass()">Create Class</button>
+                <button title="verify goals" data-ng-click="onAddStudent()">Add Student</button>
+               
+
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</form>
+
+

@@ -1,0 +1,19 @@
+﻿<div class="form-group">
+    <label>
+        <input name="xxxx" type="radio" ng-model="color.name" ng-required="true" value="red">
+        Red
+    </label><br />
+    <label>
+        <input name="xxxx" type="radio" ng-model="color.name" ng-required="true" value="green">
+        Green
+    </label><br />
+    <label>
+        <input name="xxxx" type="radio" ng-model="color.name" ng-required="true" value="blue">
+        Blue
+    </label><br />
+
+
+    <div ng-messages="masterForm.xxxx.$error" ng-show="masterform.xxxx.$touched">
+        <div ng-messages-include="myLib/mvc/msg/errMsgs.html"></div>
+    </div>
+</div>
